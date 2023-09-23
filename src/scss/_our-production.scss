@@ -1,0 +1,124 @@
+.our-production {
+    font-family: 'Cormorant Garamond';
+    margin: 16.9rem 0 15.2rem 0;
+
+    &__head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 7.5rem 0;
+        border-top: 0.1rem solid #BDBDBD;
+        border-bottom: 0.1rem solid #BDBDBD;
+        margin: 0 0 5.6rem 0;
+    }
+
+    &__left-box {
+        max-width: 25rem;
+    }
+
+    &__subtitle {
+        color: #6B6B6B;
+        font-size: 2.2rem;
+        font-weight: 700;
+        line-height: 2.2rem;
+        margin: 0 0 2rem 0;
+    }
+
+    &__text {
+        color: #6B6B6B;
+        font-family: 'Circe';
+        font-size: 1.6rem;
+        font-weight: 350;
+        line-height: 2.13rem;
+    }
+
+    &__title {
+        color: #1C1C1C;
+        text-align: center;
+        font-size: 5.8rem;
+        line-height: 6.96rem;
+    }
+
+    &__right-box {
+        max-width: 21.2rem;
+
+        .our-production__text {
+            margin: 0 0 0.8rem 0;
+        }
+    }
+
+    &__adress {
+        color: #1C1C1C;
+        font-size: 3rem;
+        font-weight: 600;
+        line-height: 3rem;
+        text-transform: uppercase;
+    }
+
+    &__slider {
+        width: 141rem;
+        height: 43.6rem;
+        margin: 0 0 6rem 0;
+
+        .swiper-slide {
+            width: 23.1rem;
+            height: 26.2rem;
+
+            &-next,
+            &-prev {
+                width: 24.6rem;
+                height: 32.8rem;
+            }
+
+            &-active {
+                width: 34.6rem;
+                height: 43.6rem;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .swiper-wrapper {
+            align-items: center;
+        }
+    }
+
+    &__swiper-controlls {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 49.8rem;
+    }
+
+    &__swiper-pagination {
+        max-width: 12rem;
+
+        .swiper-pagination-bullet {
+            width: 1rem;
+            height: 1rem;
+            background-color: #BDBDBD;
+            border-radius: 50%;
+
+            &:not(:last-child) {
+                margin: 0 1rem 0 0;
+            }
+
+            &-active {
+                background-color: #1C1C1C;
+            }
+        }
+    }
+
+    &__swiper-prev,
+    &__swiper-next {
+        width: 6.4rem;
+        height: 5.2rem;
+        background-color: #E6E4E0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
